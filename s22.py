@@ -2,7 +2,7 @@ cha,saw=map(int,input().split())
 lost=list(map(int,input().split()))
 law=[]
 for p in range(0,saw):
-     sha,sha=map(int,input().split())
+     sha,she=map(int,input().split())
      law.append([sha,she])
 for p in range(saw):
      las=law[p][0]

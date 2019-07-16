@@ -1,5 +1,5 @@
 xaa = int(input())
-taa = int(x/2)
+taa = int(xaa/2)
 raa = []
 for i in range(xaa, taa, -1):
     j = str(i)

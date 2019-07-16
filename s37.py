@@ -5,7 +5,7 @@ tsa=[]
 cina=0
 for i in range(sha):
     xaa=vsa[i]/psa[i]
-    tsa.append(x)
+    tsa.append(xaa)
 while kaa>=0 and len(tsa)>0:
     mindexa=tsa.index(max(tsa))
     if kaa>=psa[mindexa]:

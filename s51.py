@@ -9,7 +9,7 @@ if(cho+cha<=3):
             sha=sha+'1'
 else:    
     for i in range(0,cho+cha):
-        if(i==urn):
+        if(i==che):
             sha=sha+'0'
             if(che==cha):
                 che=che+2

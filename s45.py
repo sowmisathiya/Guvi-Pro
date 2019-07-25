@@ -4,7 +4,7 @@ cho=1
 sha=0
 check=False
 while True:
-    cho=l1[sha]
+    cho=lists[sha]
     for p in range(0,len(cha)-cho):
         if cho in cha[p:p+cho]:
             check=True

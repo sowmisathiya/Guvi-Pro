@@ -1,11 +1,7 @@
 cha=input()
-che=0
-for i in range(0,len(cha)):
-    sha=(cha[i:i]+cha[i+1:])
-    if(len(sha)%8==0):
-        che=1
-        break
-if(che==1):
+che={'d': 1, 'h': 1, 'o': 1, 'n': 1, 'i': 1}
+cho={x:cha.count(x) for x in cha}
+if che==cho:
     print("yes")
 else:
     print("no")

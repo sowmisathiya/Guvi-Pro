@@ -1,21 +1,19 @@
 cat=input()
 l1=list(set(cat))
-xen=1
-ant=0
-checks=False
+xen,ant=1,0
+c=False
 while True:
     ch=l1[ant]
     for y in range(0,len(cat)-xen):
         if ch in cat[y:y+xen]:
-            check=True
+            c=True
         else:
-            check=False
-            ant=ant+1
+            c=False
+            ant+=1
             if ant>=len(l1):
-             ant=0
-             xen=xen+1
+            	ant=0
+            	xen+=1
             break
-
-    if checks==True:
+    if c==True:
         break
 print(xen)

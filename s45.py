@@ -1,21 +1,21 @@
-cha=input()
-lists=list(set(cha))
-cho=1
-sha=0
-check=False
+cat=input()
+l1=list(set(cat))
+xen=1
+ant=0
+checks=False
 while True:
-    cho=lists[sha]
-    for p in range(0,len(cha)-cho):
-        if cho in cha[p:p+cho]:
+    ch=l1[ant]
+    for y in range(0,len(cat)-xen):
+        if ch in cat[y:y+xen]:
             check=True
         else:
             check=False
-            sha=sha+1
-            if sha>=len(lists):
-             sha=0
-             cho=cho+1
+            ant=ant+1
+            if ant>=len(l1):
+             ant=0
+             xen=xen+1
             break
 
-    if check==True:
+    if checks==True:
         break
-print(cho)
+print(xen)

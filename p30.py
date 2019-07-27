@@ -17,4 +17,4 @@ for i in range(0,len(la)):
     elif(tm<c):
       tm+=la[i]
       cun+=ls
- print(cun)
+print(cun)

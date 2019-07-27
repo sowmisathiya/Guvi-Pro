@@ -3,7 +3,7 @@ tt=int(aa1[0])
 c=int(aa1[1])
 ls=input().split()
 ls=[int(i) for i in ls]
-ls=sorted(ls,reverser=True)
+ls=sorted(ls,reverse=True)
 tm=0
 cun=0
 for i in range(0,len(ls)):
@@ -11,7 +11,7 @@ for i in range(0,len(ls)):
     if(tm==c):
       break
     elif(tm>c):
-      cun-=1
+      cun-=ls
       tem-=ls[i]
       break
     elif(tm<c):

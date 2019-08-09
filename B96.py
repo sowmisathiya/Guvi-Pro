@@ -1,6 +1,6 @@
-aa11,ab22,ac33=map(int,input().split())
-apps=0
-for i in range(0,ac33):
-   apps=app+aa11
-   aa11=aa11+ab22
-print(apps)
+sa11,sb22,sc33=map(int,input().split())
+sow=0
+for i in range(0,sc33):
+   sow=sow+sa11
+   sa11=sa11+sb22
+print(sow)

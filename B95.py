@@ -1,2 +1,2 @@
-p11,n22,r33=map(int,input().split())
-print(int(p11*n22*r33//100))
+pn11,pn22,pr33=map(int,input().split())
+print(int(pn11*pn22*pr33//100))
